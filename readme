@@ -1,0 +1,39 @@
+fif: Find In Filename, an interactive fuzzy finder for file names,
+     using fzf, bat and your editor of choice.
+
+Usage: fif [options] <query>
+
+Options:
+  -c, --code    Open in VS Code
+  -s, --subl    Open in Sublime Text
+  -e, --editor  Open in $EDITOR
+
+By default, fif will copy the file name to the clipboard.
+
+
+
+fic: Find In Content, an interactive fuzzy finder for text files,
+     using ripgrep, fzf, bat and your editor of choice.
+
+Usage: fic [options] <query>
+
+Options:
+  -c, --code    Open in VS Code
+  -s, --subl    Open in Sublime Text
+  -e, --editor  Open in $EDITOR
+
+By default, fic will copy the file name and line number to the clipboard.
+
+
+
+fia: Find In All, an interactive fuzzy finder for all kinds of files,
+     using ripgrep-all, fzf, bat and your editor of choice.
+
+Usage: fia [options] <query>
+
+Options:
+  -c, --code    Open in VS Code
+  -s, --subl    Open in Sublime Text
+  -e, --editor  Open in $EDITOR
+
+By default, fia will copy the file name and line number to the clipboard.
